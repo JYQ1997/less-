@@ -12,6 +12,12 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <div class="test">aaaa</div>
+
+  <yk-space>
+    <yk-button>主要按钮</yk-button>
+    <yk-button type="secondary">次要按钮</yk-button>
+    <yk-button type="outline">线框按钮</yk-button>
+  </yk-space>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
